@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/data/api_checker.dart';
-import 'package:ride_sharing_user_app/features/ride/domain/models/trip_details_model.dart';
-import 'package:ride_sharing_user_app/features/trip/domain/models/trip_model.dart';
-import 'package:ride_sharing_user_app/features/wallet/domain/models/payment_gateway_model.dart';
-import 'package:ride_sharing_user_app/features/wallet/domain/models/pending_settled_withdraw_model.dart';
-import 'package:ride_sharing_user_app/features/wallet/domain/models/withdraw_method_info_model.dart';
-import 'package:ride_sharing_user_app/features/wallet/domain/services/wallet_service_interface.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/delete_confermation_dialog_widget.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/withdraw_successful_dialog_widget.dart';
-import 'package:ride_sharing_user_app/helper/date_converter.dart';
-import 'package:ride_sharing_user_app/helper/display_helper.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/wallet/domain/models/loyalty_point_model.dart';
-import 'package:ride_sharing_user_app/features/wallet/domain/models/transaction_model.dart';
-import 'package:ride_sharing_user_app/features/wallet/domain/models/withdraw_model.dart';
+import 'package:zerin_driver/data/api_checker.dart';
+import 'package:zerin_driver/features/ride/domain/models/trip_details_model.dart';
+import 'package:zerin_driver/features/trip/domain/models/trip_model.dart';
+import 'package:zerin_driver/features/wallet/domain/models/payment_gateway_model.dart';
+import 'package:zerin_driver/features/wallet/domain/models/pending_settled_withdraw_model.dart';
+import 'package:zerin_driver/features/wallet/domain/models/withdraw_method_info_model.dart';
+import 'package:zerin_driver/features/wallet/domain/services/wallet_service_interface.dart';
+import 'package:zerin_driver/features/wallet/widgets/delete_confermation_dialog_widget.dart';
+import 'package:zerin_driver/features/wallet/widgets/withdraw_successful_dialog_widget.dart';
+import 'package:zerin_driver/helper/date_converter.dart';
+import 'package:zerin_driver/helper/display_helper.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/wallet/domain/models/loyalty_point_model.dart';
+import 'package:zerin_driver/features/wallet/domain/models/transaction_model.dart';
+import 'package:zerin_driver/features/wallet/domain/models/withdraw_model.dart';
 
 
 class WalletController extends GetxController implements GetxService {

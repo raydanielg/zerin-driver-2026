@@ -1,7 +1,7 @@
 
 import 'package:image_picker/image_picker.dart';
-import 'package:ride_sharing_user_app/features/ride/domain/repositories/ride_repository_interface.dart';
-import 'package:ride_sharing_user_app/features/ride/domain/services/ride_service_interface.dart';
+import 'package:zerin_driver/features/ride/domain/repositories/ride_repository_interface.dart';
+import 'package:zerin_driver/features/ride/domain/services/ride_service_interface.dart';
 
 class RideService implements RideServiceInterface{
   final RideRepositoryInterface rideRepositoryInterface;

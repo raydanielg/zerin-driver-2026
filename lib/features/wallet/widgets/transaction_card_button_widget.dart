@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/wallet/controllers/wallet_controller.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/wallet_amount_type_card_widget.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/wallet/controllers/wallet_controller.dart';
+import 'package:zerin_driver/features/wallet/widgets/wallet_amount_type_card_widget.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
 
 class TransactionCardButtonWidget extends StatelessWidget {
   final int tabIndex;

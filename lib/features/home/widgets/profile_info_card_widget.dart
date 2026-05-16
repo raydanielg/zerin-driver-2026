@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:get/get.dart';
 import 'package:just_the_tooltip/just_the_tooltip.dart';
-import 'package:ride_sharing_user_app/common_widgets/confirmation_bottomsheet_widget.dart';
-import 'package:ride_sharing_user_app/features/ride/controllers/ride_controller.dart';
-import 'package:ride_sharing_user_app/helper/display_helper.dart';
-import 'package:ride_sharing_user_app/helper/home_screen_helper.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
-import 'package:ride_sharing_user_app/common_widgets/image_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/loader_widget.dart';
+import 'package:zerin_driver/common_widgets/confirmation_bottomsheet_widget.dart';
+import 'package:zerin_driver/features/ride/controllers/ride_controller.dart';
+import 'package:zerin_driver/helper/display_helper.dart';
+import 'package:zerin_driver/helper/home_screen_helper.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/common_widgets/image_widget.dart';
+import 'package:zerin_driver/common_widgets/loader_widget.dart';
 
 class ProfileStatusCardWidget extends StatefulWidget {
   final ProfileController profileController;

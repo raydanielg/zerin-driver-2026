@@ -1,15 +1,15 @@
 import 'package:flutter/gestures.dart' show TapGestureRecognizer;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/payment_method_bottomsheet_widget.dart';
-import 'package:ride_sharing_user_app/helper/display_helper.dart';
-import 'package:ride_sharing_user_app/helper/extension_helper.dart';
-import 'package:ride_sharing_user_app/helper/price_converter.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/features/wallet/widgets/payment_method_bottomsheet_widget.dart';
+import 'package:zerin_driver/helper/display_helper.dart';
+import 'package:zerin_driver/helper/extension_helper.dart';
+import 'package:zerin_driver/helper/price_converter.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class CashInHandWarningWidget extends StatelessWidget {
   const CashInHandWarningWidget({super.key});

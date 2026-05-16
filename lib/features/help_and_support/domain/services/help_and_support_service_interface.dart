@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:ride_sharing_user_app/data/api_client.dart';
+import 'package:zerin_driver/data/api_client.dart';
 
 abstract class HelpAndSupportServiceInterface{
   Future<dynamic> createChannel();

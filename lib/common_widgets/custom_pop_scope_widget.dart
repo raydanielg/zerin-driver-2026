@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/dashboard/screens/dashboard_screen.dart';
+import 'package:zerin_driver/features/dashboard/screens/dashboard_screen.dart';
 
 
 class CustomPopScopeWidget extends StatelessWidget {

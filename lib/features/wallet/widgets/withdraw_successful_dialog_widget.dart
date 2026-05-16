@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class WithdrawSuccessfulDialogWidget extends StatelessWidget {
   const WithdrawSuccessfulDialogWidget({super.key});

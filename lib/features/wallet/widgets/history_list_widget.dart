@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/wallet/controllers/wallet_controller.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/income_statement_list_widget.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/loyalty_point_list_widget.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/payable_transaction_list_widget.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/pending_settled_list_widget.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/features/wallet/controllers/wallet_controller.dart';
+import 'package:zerin_driver/features/wallet/widgets/income_statement_list_widget.dart';
+import 'package:zerin_driver/features/wallet/widgets/loyalty_point_list_widget.dart';
+import 'package:zerin_driver/features/wallet/widgets/payable_transaction_list_widget.dart';
+import 'package:zerin_driver/features/wallet/widgets/pending_settled_list_widget.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class HistoryListWidget extends StatelessWidget {
   final ScrollController scrollController;

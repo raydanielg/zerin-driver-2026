@@ -1,7 +1,7 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class DottedBorderBoxWidget extends StatelessWidget {
   final double? height;

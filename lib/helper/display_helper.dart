@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/helper/responsive_helper.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/helper/responsive_helper.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 void customPrint(String message) {
   if(kDebugMode) {

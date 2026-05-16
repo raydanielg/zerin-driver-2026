@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/helper/price_converter.dart';
-import 'package:ride_sharing_user_app/localization/localization_controller.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/helper/price_converter.dart';
+import 'package:zerin_driver/localization/localization_controller.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class ProfileLevelDetailsWidget extends StatelessWidget {
   const ProfileLevelDetailsWidget({super.key});

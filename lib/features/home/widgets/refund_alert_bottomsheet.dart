@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/button_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/custom_alart_dialog_shape.dart';
-import 'package:ride_sharing_user_app/features/trip/screens/trip_details_screen.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/common_widgets/button_widget.dart';
+import 'package:zerin_driver/common_widgets/custom_alart_dialog_shape.dart';
+import 'package:zerin_driver/features/trip/screens/trip_details_screen.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class RefundAlertBottomSheet extends StatelessWidget {
   final String title;

@@ -1,7 +1,7 @@
 
 
-import 'package:ride_sharing_user_app/features/leaderboard/domain/repositories/leader_board_repository_interface.dart';
-import 'package:ride_sharing_user_app/features/leaderboard/domain/services/leader_board_service_interface.dart';
+import 'package:zerin_driver/features/leaderboard/domain/repositories/leader_board_repository_interface.dart';
+import 'package:zerin_driver/features/leaderboard/domain/services/leader_board_service_interface.dart';
 
 class LeaderBoardService implements LeaderBoardServiceInterface {
 

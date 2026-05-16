@@ -5,14 +5,14 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:ride_sharing_user_app/common_widgets/app_bar_widget.dart';
-import 'package:ride_sharing_user_app/features/location/controllers/location_controller.dart';
-import 'package:ride_sharing_user_app/features/map/controllers/map_controller.dart';
-import 'package:ride_sharing_user_app/features/map/widgets/custom_icon_card_widget.dart';
-import 'package:ride_sharing_user_app/features/out_of_zone/controllers/out_of_zone_controller.dart';
-import 'package:ride_sharing_user_app/theme/theme_controller.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
+import 'package:zerin_driver/common_widgets/app_bar_widget.dart';
+import 'package:zerin_driver/features/location/controllers/location_controller.dart';
+import 'package:zerin_driver/features/map/controllers/map_controller.dart';
+import 'package:zerin_driver/features/map/widgets/custom_icon_card_widget.dart';
+import 'package:zerin_driver/features/out_of_zone/controllers/out_of_zone_controller.dart';
+import 'package:zerin_driver/theme/theme_controller.dart';
+import 'package:zerin_driver/util/app_constants.dart';
+import 'package:zerin_driver/util/images.dart';
 
 class OutOfZoneMapScreen extends StatefulWidget {
   const OutOfZoneMapScreen({super.key});

@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:ride_sharing_user_app/features/map/controllers/map_controller.dart';
-import 'package:ride_sharing_user_app/features/map/widgets/route_calculation_widget.dart';
-import 'package:ride_sharing_user_app/features/ride/controllers/ride_controller.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
-import 'package:ride_sharing_user_app/features/trip/screens/payment_received_screen.dart';
-import 'package:ride_sharing_user_app/features/trip/screens/review_this_customer_screen.dart';
-import 'package:ride_sharing_user_app/helper/display_helper.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/features/dashboard/screens/dashboard_screen.dart';
+import 'package:zerin_driver/features/map/controllers/map_controller.dart';
+import 'package:zerin_driver/features/map/widgets/route_calculation_widget.dart';
+import 'package:zerin_driver/features/ride/controllers/ride_controller.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/features/trip/screens/payment_received_screen.dart';
+import 'package:zerin_driver/features/trip/screens/review_this_customer_screen.dart';
+import 'package:zerin_driver/helper/display_helper.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class RideCompletationDialogWidget extends StatelessWidget {
   const RideCompletationDialogWidget({super.key});

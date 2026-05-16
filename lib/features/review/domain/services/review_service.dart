@@ -1,7 +1,7 @@
 
 
-import 'package:ride_sharing_user_app/features/review/domain/repositories/review_repository_interface.dart';
-import 'package:ride_sharing_user_app/features/review/domain/services/review_service_interface.dart';
+import 'package:zerin_driver/features/review/domain/repositories/review_repository_interface.dart';
+import 'package:zerin_driver/features/review/domain/services/review_service_interface.dart';
 
 class ReviewService implements ReviewServiceInterface{
   final ReviewRepositoryInterface reviewRepositoryInterface;

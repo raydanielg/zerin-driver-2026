@@ -2,12 +2,12 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/button_widget.dart';
-import 'package:ride_sharing_user_app/helper/login_helper.dart';
-import 'package:ride_sharing_user_app/localization/localization_controller.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/common_widgets/button_widget.dart';
+import 'package:zerin_driver/helper/login_helper.dart';
+import 'package:zerin_driver/localization/localization_controller.dart';
+import 'package:zerin_driver/util/app_constants.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class LanguageSelectionScreen extends StatefulWidget {
   final Map<String,dynamic>? notificationData;

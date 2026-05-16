@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
 
 class ProfileItemWidget extends StatelessWidget {
   final String title;

@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/data/api_checker.dart';
-import 'package:ride_sharing_user_app/features/out_of_zone/domain/models/zone_list_model.dart';
-import 'package:ride_sharing_user_app/features/out_of_zone/domain/service/out_of_zone_service_interface.dart';
-import 'package:ride_sharing_user_app/features/out_of_zone/widgets/out_of_zone_bottoms_sheet_widget.dart';
-import 'package:ride_sharing_user_app/helper/map_helper.dart';
+import 'package:zerin_driver/data/api_checker.dart';
+import 'package:zerin_driver/features/out_of_zone/domain/models/zone_list_model.dart';
+import 'package:zerin_driver/features/out_of_zone/domain/service/out_of_zone_service_interface.dart';
+import 'package:zerin_driver/features/out_of_zone/widgets/out_of_zone_bottoms_sheet_widget.dart';
+import 'package:zerin_driver/helper/map_helper.dart';
 
 class OutOfZoneController extends GetxController implements GetxService {
   final OutOfZoneServiceInterface outOfZoneServiceInterface;

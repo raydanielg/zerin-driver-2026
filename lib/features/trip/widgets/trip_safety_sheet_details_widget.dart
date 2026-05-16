@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/ride/domain/models/trip_details_model.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/widgets/after_send_alert_bottomsheet.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
+import 'package:zerin_driver/features/ride/domain/models/trip_details_model.dart';
+import 'package:zerin_driver/features/safety_setup/widgets/after_send_alert_bottomsheet.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
 
 
 

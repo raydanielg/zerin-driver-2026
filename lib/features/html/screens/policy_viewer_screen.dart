@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_from_html_core/flutter_widget_from_html_core.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/custom_pop_scope_widget.dart';
-import 'package:ride_sharing_user_app/features/html/domain/html_enum_types.dart';
-import 'package:ride_sharing_user_app/features/splash/domain/models/config_model.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
-import 'package:ride_sharing_user_app/common_widgets/image_widget.dart';
+import 'package:zerin_driver/common_widgets/custom_pop_scope_widget.dart';
+import 'package:zerin_driver/features/html/domain/html_enum_types.dart';
+import 'package:zerin_driver/features/splash/domain/models/config_model.dart';
+import 'package:zerin_driver/util/app_constants.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/common_widgets/image_widget.dart';
 
 
 class PolicyViewerScreen extends StatelessWidget {

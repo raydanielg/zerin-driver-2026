@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class CustomTextField extends StatefulWidget {
   final String hintText;

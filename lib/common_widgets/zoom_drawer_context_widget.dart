@@ -3,7 +3,7 @@ import 'dart:math' show pi;
 import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:ride_sharing_user_app/common_widgets/config.dart';
+import 'package:zerin_driver/common_widgets/config.dart';
 
 extension ZoomDrawerContextWidget on BuildContext {
   ZoomDrawerState? get drawer => ZoomDrawer.of(this);

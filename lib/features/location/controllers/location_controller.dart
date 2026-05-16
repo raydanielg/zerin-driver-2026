@@ -3,12 +3,12 @@ import 'package:flutter/foundation.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:ride_sharing_user_app/features/location/domain/services/location_service_interface.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/features/auth/controllers/auth_controller.dart';
-import 'package:ride_sharing_user_app/features/location/domain/models/zone_response.dart';
-import 'package:ride_sharing_user_app/features/map/controllers/map_controller.dart';
-import 'package:ride_sharing_user_app/common_widgets/confirmation_dialog_widget.dart';
+import 'package:zerin_driver/features/location/domain/services/location_service_interface.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/features/auth/controllers/auth_controller.dart';
+import 'package:zerin_driver/features/location/domain/models/zone_response.dart';
+import 'package:zerin_driver/features/map/controllers/map_controller.dart';
+import 'package:zerin_driver/common_widgets/confirmation_dialog_widget.dart';
 
 
 

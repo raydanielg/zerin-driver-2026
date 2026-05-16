@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/ride/controllers/ride_controller.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/ride/controllers/ride_controller.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/util/app_constants.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
 
-import 'package:ride_sharing_user_app/common_widgets/image_widget.dart';
+import 'package:zerin_driver/common_widgets/image_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class DriverHeaderInfoWidget extends StatelessWidget {

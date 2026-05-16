@@ -1,17 +1,17 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/helper/responsive_helper.dart';
-import 'package:ride_sharing_user_app/localization/localization_controller.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/profile/screens/profile_menu_screen.dart';
-import 'package:ride_sharing_user_app/features/trip/controllers/trip_controller.dart';
-import 'package:ride_sharing_user_app/features/trip/widgets/trip_overview_widget.dart';
-import 'package:ride_sharing_user_app/features/trip/widgets/trips_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/app_bar_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/zoom_drawer_context_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/type_button_widget.dart';
+import 'package:zerin_driver/helper/responsive_helper.dart';
+import 'package:zerin_driver/localization/localization_controller.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/profile/screens/profile_menu_screen.dart';
+import 'package:zerin_driver/features/trip/controllers/trip_controller.dart';
+import 'package:zerin_driver/features/trip/widgets/trip_overview_widget.dart';
+import 'package:zerin_driver/features/trip/widgets/trips_widget.dart';
+import 'package:zerin_driver/common_widgets/app_bar_widget.dart';
+import 'package:zerin_driver/common_widgets/zoom_drawer_context_widget.dart';
+import 'package:zerin_driver/common_widgets/type_button_widget.dart';
 
 class TripHistoryMenu extends GetView<ProfileController> {
   const TripHistoryMenu({super.key});

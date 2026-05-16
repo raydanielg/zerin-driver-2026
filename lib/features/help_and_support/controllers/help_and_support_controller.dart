@@ -7,15 +7,15 @@ import 'package:image_picker/image_picker.dart';
 import 'package:open_file_plus/open_file_plus.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:ride_sharing_user_app/data/api_checker.dart';
-import 'package:ride_sharing_user_app/data/api_client.dart';
-import 'package:ride_sharing_user_app/features/chat/domain/models/message_model.dart';
-import 'package:ride_sharing_user_app/features/help_and_support/domain/models/predefined_faq_model.dart';
-import 'package:ride_sharing_user_app/features/help_and_support/domain/services/help_and_support_service_interface.dart';
-import 'package:ride_sharing_user_app/features/help_and_support/screens/support_chat_screen.dart';
-import 'package:ride_sharing_user_app/helper/display_helper.dart';
-import 'package:ride_sharing_user_app/helper/file_validation_helper.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
+import 'package:zerin_driver/data/api_checker.dart';
+import 'package:zerin_driver/data/api_client.dart';
+import 'package:zerin_driver/features/chat/domain/models/message_model.dart';
+import 'package:zerin_driver/features/help_and_support/domain/models/predefined_faq_model.dart';
+import 'package:zerin_driver/features/help_and_support/domain/services/help_and_support_service_interface.dart';
+import 'package:zerin_driver/features/help_and_support/screens/support_chat_screen.dart';
+import 'package:zerin_driver/helper/display_helper.dart';
+import 'package:zerin_driver/helper/file_validation_helper.dart';
+import 'package:zerin_driver/util/app_constants.dart';
 
 
 class HelpAndSupportController extends GetxController implements GetxService{

@@ -2,17 +2,17 @@ import 'dart:convert';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:dart_pusher_channels/dart_pusher_channels.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/auth/controllers/auth_controller.dart';
-import 'package:ride_sharing_user_app/features/home/screens/ride_list_screen.dart';
-import 'package:ride_sharing_user_app/features/map/controllers/map_controller.dart';
-import 'package:ride_sharing_user_app/features/map/screens/map_screen.dart';
-import 'package:ride_sharing_user_app/features/ride/controllers/ride_controller.dart';
-import 'package:ride_sharing_user_app/features/ride/screens/ride_request_list_screen.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/controllers/safety_alert_controller.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
-import 'package:ride_sharing_user_app/features/trip/screens/payment_received_screen.dart';
-import 'package:ride_sharing_user_app/features/trip/screens/review_this_customer_screen.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
+import 'package:zerin_driver/features/auth/controllers/auth_controller.dart';
+import 'package:zerin_driver/features/home/screens/ride_list_screen.dart';
+import 'package:zerin_driver/features/map/controllers/map_controller.dart';
+import 'package:zerin_driver/features/map/screens/map_screen.dart';
+import 'package:zerin_driver/features/ride/controllers/ride_controller.dart';
+import 'package:zerin_driver/features/ride/screens/ride_request_list_screen.dart';
+import 'package:zerin_driver/features/safety_setup/controllers/safety_alert_controller.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/features/trip/screens/payment_received_screen.dart';
+import 'package:zerin_driver/features/trip/screens/review_this_customer_screen.dart';
+import 'package:zerin_driver/util/app_constants.dart';
 import '../features/dashboard/screens/dashboard_screen.dart';
 
 

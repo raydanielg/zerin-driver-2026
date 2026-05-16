@@ -2,11 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/localization/localization_controller.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/features/home/widgets/activity_card_widget.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/common_widgets/title_widget.dart';
+import 'package:zerin_driver/localization/localization_controller.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/features/home/widgets/activity_card_widget.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/common_widgets/title_widget.dart';
 
 class MyActivityListViewWidget extends StatelessWidget {
   const MyActivityListViewWidget({super.key});

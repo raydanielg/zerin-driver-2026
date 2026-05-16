@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/payment_item_info_widget.dart';
-import 'package:ride_sharing_user_app/features/ride/domain/models/trip_details_model.dart';
-import 'package:ride_sharing_user_app/helper/price_converter.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/common_widgets/payment_item_info_widget.dart';
+import 'package:zerin_driver/features/ride/domain/models/trip_details_model.dart';
+import 'package:zerin_driver/helper/price_converter.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class PaymentDetailsWidget extends StatelessWidget {
   final TripDetail? tripDetail;

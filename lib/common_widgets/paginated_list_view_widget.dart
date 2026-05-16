@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
+import 'package:zerin_driver/util/dimensions.dart';
 
 
 class PaginatedListViewWidget extends StatefulWidget {

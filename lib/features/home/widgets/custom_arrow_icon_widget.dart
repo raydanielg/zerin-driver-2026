@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
+import 'package:zerin_driver/util/dimensions.dart';
 
 class CustomArrowIconWidget extends StatelessWidget {
   final Color color;

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/controllers/safety_alert_controller.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/widgets/after_send_alert_bottomsheet.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/widgets/other_emergency_number_widget.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/widgets/predefine_alert_content_widget.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/widgets/safety_alert_content_widget.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
+import 'package:zerin_driver/features/safety_setup/controllers/safety_alert_controller.dart';
+import 'package:zerin_driver/features/safety_setup/widgets/after_send_alert_bottomsheet.dart';
+import 'package:zerin_driver/features/safety_setup/widgets/other_emergency_number_widget.dart';
+import 'package:zerin_driver/features/safety_setup/widgets/predefine_alert_content_widget.dart';
+import 'package:zerin_driver/features/safety_setup/widgets/safety_alert_content_widget.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
 
 
 class SafetyAlertBottomSheetWidget extends StatefulWidget {

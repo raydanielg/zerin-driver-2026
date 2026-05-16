@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/map/controllers/map_controller.dart';
-import 'package:ride_sharing_user_app/features/map/screens/map_screen.dart';
-import 'package:ride_sharing_user_app/features/ride/controllers/ride_controller.dart';
-import 'package:ride_sharing_user_app/helper/date_converter.dart';
-import 'package:ride_sharing_user_app/helper/price_converter.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/ride/domain/models/trip_details_model.dart';
-import 'package:ride_sharing_user_app/features/trip/screens/trip_details_screen.dart';
+import 'package:zerin_driver/features/map/controllers/map_controller.dart';
+import 'package:zerin_driver/features/map/screens/map_screen.dart';
+import 'package:zerin_driver/features/ride/controllers/ride_controller.dart';
+import 'package:zerin_driver/helper/date_converter.dart';
+import 'package:zerin_driver/helper/price_converter.dart';
+import 'package:zerin_driver/util/app_constants.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/ride/domain/models/trip_details_model.dart';
+import 'package:zerin_driver/features/trip/screens/trip_details_screen.dart';
 
 import '../screens/payment_received_screen.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/data/api_checker.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/domain/models/referral_details_model.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/domain/services/refer_earn_service_interface.dart';
-import 'package:ride_sharing_user_app/features/wallet/domain/models/transaction_model.dart';
+import 'package:zerin_driver/data/api_checker.dart';
+import 'package:zerin_driver/features/refer_and_earn/domain/models/referral_details_model.dart';
+import 'package:zerin_driver/features/refer_and_earn/domain/services/refer_earn_service_interface.dart';
+import 'package:zerin_driver/features/wallet/domain/models/transaction_model.dart';
 
 class ReferAndEarnController extends GetxController implements GetxService{
   final ReferEarnServiceInterface referEarnServiceInterface;

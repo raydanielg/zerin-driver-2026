@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/no_data_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/paginated_list_view_widget.dart';
-import 'package:ride_sharing_user_app/features/notification/widgets/notification_shimmer_widget.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/controllers/refer_and_earn_controller.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/widgets/custom_itle.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/widgets/earning_card_widget.dart';
-import 'package:ride_sharing_user_app/helper/price_converter.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/common_widgets/no_data_widget.dart';
+import 'package:zerin_driver/common_widgets/paginated_list_view_widget.dart';
+import 'package:zerin_driver/features/notification/widgets/notification_shimmer_widget.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/refer_and_earn/controllers/refer_and_earn_controller.dart';
+import 'package:zerin_driver/features/refer_and_earn/widgets/custom_itle.dart';
+import 'package:zerin_driver/features/refer_and_earn/widgets/earning_card_widget.dart';
+import 'package:zerin_driver/helper/price_converter.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class ReferralEarningScreen extends StatelessWidget {
   const ReferralEarningScreen({super.key});

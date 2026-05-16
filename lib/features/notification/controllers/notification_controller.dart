@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/data/api_checker.dart';
-import 'package:ride_sharing_user_app/features/notification/domain/models/notification_model.dart';
-import 'package:ride_sharing_user_app/features/notification/domain/services/notification_service_interface.dart';
+import 'package:zerin_driver/data/api_checker.dart';
+import 'package:zerin_driver/features/notification/domain/models/notification_model.dart';
+import 'package:zerin_driver/features/notification/domain/services/notification_service_interface.dart';
 
 class NotificationController extends GetxController implements GetxService{
   final NotificationServiceInterface notificationServiceInterface;

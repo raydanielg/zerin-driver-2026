@@ -1,15 +1,15 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/drop_down_widget.dart';
-import 'package:ride_sharing_user_app/localization/localization_controller.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/notification/widgets/notification_shimmer_widget.dart';
-import 'package:ride_sharing_user_app/features/trip/controllers/trip_controller.dart';
-import 'package:ride_sharing_user_app/features/trip/widgets/trip_card_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/no_data_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/paginated_list_view_widget.dart';
+import 'package:zerin_driver/common_widgets/drop_down_widget.dart';
+import 'package:zerin_driver/localization/localization_controller.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/notification/widgets/notification_shimmer_widget.dart';
+import 'package:zerin_driver/features/trip/controllers/trip_controller.dart';
+import 'package:zerin_driver/features/trip/widgets/trip_card_widget.dart';
+import 'package:zerin_driver/common_widgets/no_data_widget.dart';
+import 'package:zerin_driver/common_widgets/paginated_list_view_widget.dart';
 
 class TripsWidget extends StatefulWidget {
   final ScrollController scrollController;

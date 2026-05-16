@@ -1,4 +1,4 @@
-import 'package:ride_sharing_user_app/features/ride/domain/models/trip_details_model.dart';
+import 'package:zerin_driver/features/ride/domain/models/trip_details_model.dart';
 
 class OngoingTripModel {
   String? responseCode;

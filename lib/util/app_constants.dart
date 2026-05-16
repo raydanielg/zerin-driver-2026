@@ -1,6 +1,6 @@
 
-import 'package:ride_sharing_user_app/localization/language_model.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
+import 'package:zerin_driver/localization/language_model.dart';
+import 'package:zerin_driver/util/images.dart';
 
 class AppConstants {
   static const String appName = 'Zerin Driver';

@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/data/api_checker.dart';
-import 'package:ride_sharing_user_app/features/leaderboard/domain/models/leaderboard_model.dart';
-import 'package:ride_sharing_user_app/features/leaderboard/domain/services/leader_board_service_interface.dart';
+import 'package:zerin_driver/data/api_checker.dart';
+import 'package:zerin_driver/features/leaderboard/domain/models/leaderboard_model.dart';
+import 'package:zerin_driver/features/leaderboard/domain/services/leader_board_service_interface.dart';
 
 class LeaderBoardController extends GetxController implements GetxService{
   final LeaderBoardServiceInterface leaderBoardServiceInterface;

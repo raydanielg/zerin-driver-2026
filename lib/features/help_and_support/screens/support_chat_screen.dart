@@ -1,19 +1,19 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:ride_sharing_user_app/common_widgets/custom_pop_scope_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/no_data_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/paginated_list_view_widget.dart';
-import 'package:ride_sharing_user_app/features/help_and_support/controllers/help_and_support_controller.dart';
-import 'package:ride_sharing_user_app/features/help_and_support/widgets/admin_conversation_bubble_widget.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
-import 'package:ride_sharing_user_app/helper/display_helper.dart';
-import 'package:ride_sharing_user_app/helper/image_file_helper.dart';
-import 'package:ride_sharing_user_app/localization/localization_controller.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
+import 'package:zerin_driver/common_widgets/custom_pop_scope_widget.dart';
+import 'package:zerin_driver/common_widgets/no_data_widget.dart';
+import 'package:zerin_driver/common_widgets/paginated_list_view_widget.dart';
+import 'package:zerin_driver/features/help_and_support/controllers/help_and_support_controller.dart';
+import 'package:zerin_driver/features/help_and_support/widgets/admin_conversation_bubble_widget.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/helper/display_helper.dart';
+import 'package:zerin_driver/helper/image_file_helper.dart';
+import 'package:zerin_driver/localization/localization_controller.dart';
+import 'package:zerin_driver/util/dimensions.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class SupportChatScreen extends StatefulWidget {
   final String channelId;

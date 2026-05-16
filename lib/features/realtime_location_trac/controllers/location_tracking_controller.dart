@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:ride_sharing_user_app/features/map/controllers/map_controller.dart';
-import 'package:ride_sharing_user_app/features/realtime_location_trac/domain/model/track_details_model.dart';
-import 'package:ride_sharing_user_app/features/realtime_location_trac/domain/service/location_tracking_service_interface.dart';
-import 'package:ride_sharing_user_app/helper/display_helper.dart';
-import 'package:ride_sharing_user_app/helper/login_helper.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
+import 'package:zerin_driver/features/map/controllers/map_controller.dart';
+import 'package:zerin_driver/features/realtime_location_trac/domain/model/track_details_model.dart';
+import 'package:zerin_driver/features/realtime_location_trac/domain/service/location_tracking_service_interface.dart';
+import 'package:zerin_driver/helper/display_helper.dart';
+import 'package:zerin_driver/helper/login_helper.dart';
+import 'package:zerin_driver/util/images.dart';
 import 'package:flutter/services.dart';
 import 'dart:math' as math;
 

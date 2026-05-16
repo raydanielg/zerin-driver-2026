@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/drop_down_widget.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/leaderboard/controllers/leader_board_controller.dart';
-import 'package:ride_sharing_user_app/features/leaderboard/widgets/leader_board_card_widget.dart';
-import 'package:ride_sharing_user_app/features/leaderboard/widgets/today_leaderboard_status_widget.dart';
-import 'package:ride_sharing_user_app/features/notification/widgets/notification_shimmer_widget.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
-import 'package:ride_sharing_user_app/common_widgets/app_bar_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/image_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/no_data_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/paginated_list_view_widget.dart';
+import 'package:zerin_driver/common_widgets/drop_down_widget.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/leaderboard/controllers/leader_board_controller.dart';
+import 'package:zerin_driver/features/leaderboard/widgets/leader_board_card_widget.dart';
+import 'package:zerin_driver/features/leaderboard/widgets/today_leaderboard_status_widget.dart';
+import 'package:zerin_driver/features/notification/widgets/notification_shimmer_widget.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/common_widgets/app_bar_widget.dart';
+import 'package:zerin_driver/common_widgets/image_widget.dart';
+import 'package:zerin_driver/common_widgets/no_data_widget.dart';
+import 'package:zerin_driver/common_widgets/paginated_list_view_widget.dart';
 
 class LeaderboardScreen extends StatefulWidget {
   const LeaderboardScreen({super.key});

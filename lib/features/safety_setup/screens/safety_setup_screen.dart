@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/app_bar_widget.dart';
-import 'package:ride_sharing_user_app/features/notification/widgets/notification_shimmer_widget.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/controllers/safety_alert_controller.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/common_widgets/app_bar_widget.dart';
+import 'package:zerin_driver/features/notification/widgets/notification_shimmer_widget.dart';
+import 'package:zerin_driver/features/safety_setup/controllers/safety_alert_controller.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class SafetySetupScreen extends StatefulWidget {
   const SafetySetupScreen({super.key});

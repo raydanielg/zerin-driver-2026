@@ -1,4 +1,4 @@
-import 'package:ride_sharing_user_app/util/images.dart';
+import 'package:zerin_driver/util/images.dart';
 
 class ProfileHelper{
 

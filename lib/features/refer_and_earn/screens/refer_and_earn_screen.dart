@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/app_bar_widget.dart';
-import 'package:ride_sharing_user_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/controllers/refer_and_earn_controller.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/screens/referral_details_screen.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/screens/referral_earning_screen.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/widgets/referral_type_button_widget.dart';
-import 'package:ride_sharing_user_app/helper/responsive_helper.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
+import 'package:zerin_driver/common_widgets/app_bar_widget.dart';
+import 'package:zerin_driver/features/dashboard/screens/dashboard_screen.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/refer_and_earn/controllers/refer_and_earn_controller.dart';
+import 'package:zerin_driver/features/refer_and_earn/screens/referral_details_screen.dart';
+import 'package:zerin_driver/features/refer_and_earn/screens/referral_earning_screen.dart';
+import 'package:zerin_driver/features/refer_and_earn/widgets/referral_type_button_widget.dart';
+import 'package:zerin_driver/helper/responsive_helper.dart';
+import 'package:zerin_driver/util/dimensions.dart';
 
 class ReferAndEarnScreen extends StatefulWidget {
   const ReferAndEarnScreen({super.key});

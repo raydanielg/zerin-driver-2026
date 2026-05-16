@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/features/ride/controllers/ride_controller.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/features/ride/controllers/ride_controller.dart';
 
 class CustomMenuDrivingStatusWidget extends StatelessWidget {
   final int index;

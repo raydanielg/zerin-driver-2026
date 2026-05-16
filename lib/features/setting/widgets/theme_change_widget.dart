@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/theme/theme_controller.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
+import 'package:zerin_driver/theme/theme_controller.dart';
+import 'package:zerin_driver/util/dimensions.dart';
 
 class ThemeChangeWidget extends StatelessWidget {
   const ThemeChangeWidget({super.key});

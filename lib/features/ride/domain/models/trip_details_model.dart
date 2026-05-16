@@ -1,4 +1,4 @@
-import 'package:ride_sharing_user_app/features/ride/domain/enums/refund_status_enum.dart';
+import 'package:zerin_driver/features/ride/domain/enums/refund_status_enum.dart';
 
 class TripDetailsModel {
   TripDetail? data;

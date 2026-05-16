@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:get/get_connect/http/src/response/response.dart';
-import 'package:ride_sharing_user_app/data/api_client.dart';
-import 'package:ride_sharing_user_app/features/help_and_support/domain/repositories/help_and_support_repository_interface.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
+import 'package:zerin_driver/data/api_client.dart';
+import 'package:zerin_driver/features/help_and_support/domain/repositories/help_and_support_repository_interface.dart';
+import 'package:zerin_driver/util/app_constants.dart';
 
 class HelpAndSupportRepository implements HelpAndSupportRepositoryInterface{
   final ApiClient apiClient;

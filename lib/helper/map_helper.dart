@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:geolocator/geolocator.dart';
-import 'package:ride_sharing_user_app/features/out_of_zone/domain/models/zone_list_model.dart';
+import 'package:zerin_driver/features/out_of_zone/domain/models/zone_list_model.dart';
 
 class MapHelper{
 

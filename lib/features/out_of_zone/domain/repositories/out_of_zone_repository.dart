@@ -1,8 +1,8 @@
 
 import 'package:get/get_connect/http/src/response/response.dart';
-import 'package:ride_sharing_user_app/data/api_client.dart';
-import 'package:ride_sharing_user_app/features/out_of_zone/domain/repositories/out_of_zone_repository_interface.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
+import 'package:zerin_driver/data/api_client.dart';
+import 'package:zerin_driver/features/out_of_zone/domain/repositories/out_of_zone_repository_interface.dart';
+import 'package:zerin_driver/util/app_constants.dart';
 
 class OutOfZoneRepository implements OutOfZoneRepositoryInterface{
   final ApiClient apiClient;

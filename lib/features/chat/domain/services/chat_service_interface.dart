@@ -1,5 +1,5 @@
 import 'package:file_picker/file_picker.dart';
-import 'package:ride_sharing_user_app/data/api_client.dart';
+import 'package:zerin_driver/data/api_client.dart';
 
 abstract class ChatServiceInterface {
 

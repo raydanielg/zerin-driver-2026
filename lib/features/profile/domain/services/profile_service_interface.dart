@@ -1,7 +1,7 @@
 
 import 'package:image_picker/image_picker.dart';
-import 'package:ride_sharing_user_app/data/api_client.dart';
-import 'package:ride_sharing_user_app/features/profile/domain/models/vehicle_body.dart';
+import 'package:zerin_driver/data/api_client.dart';
+import 'package:zerin_driver/features/profile/domain/models/vehicle_body.dart';
 
 abstract class ProfileServiceInterface {
   Future<dynamic> profileOnlineOffline();

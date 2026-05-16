@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/popup_banner/slider_item_widget.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
+import 'package:zerin_driver/common_widgets/popup_banner/slider_item_widget.dart';
+import 'package:zerin_driver/util/dimensions.dart';
 
 class DialogItemWidget extends StatelessWidget {
   final BuildContext context;

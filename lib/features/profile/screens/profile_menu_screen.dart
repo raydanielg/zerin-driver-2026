@@ -1,26 +1,26 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/confirmation_bottomsheet_widget.dart';
-import 'package:ride_sharing_user_app/features/html/domain/html_enum_types.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/screens/refer_and_earn_screen.dart';
-import 'package:ride_sharing_user_app/features/ride/controllers/ride_controller.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/screens/safety_setup_screen.dart';
-import 'package:ride_sharing_user_app/features/wallet/screens/payment_info_screen.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/auth/controllers/auth_controller.dart';
-import 'package:ride_sharing_user_app/features/chat/screens/chat_screen.dart';
-import 'package:ride_sharing_user_app/features/help_and_support/screens/help_and_support_screen.dart';
-import 'package:ride_sharing_user_app/features/html/screens/policy_viewer_screen.dart';
-import 'package:ride_sharing_user_app/features/leaderboard/screens/leaderboard_screen.dart';
-import 'package:ride_sharing_user_app/features/profile/screens/profile_screen.dart';
-import 'package:ride_sharing_user_app/features/profile/widgets/profile_level_widget.dart';
-import 'package:ride_sharing_user_app/features/review/screens/review_screen.dart';
-import 'package:ride_sharing_user_app/features/setting/screens/setting_screen.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/common_widgets/confirmation_bottomsheet_widget.dart';
+import 'package:zerin_driver/features/html/domain/html_enum_types.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/refer_and_earn/screens/refer_and_earn_screen.dart';
+import 'package:zerin_driver/features/ride/controllers/ride_controller.dart';
+import 'package:zerin_driver/features/safety_setup/screens/safety_setup_screen.dart';
+import 'package:zerin_driver/features/wallet/screens/payment_info_screen.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/auth/controllers/auth_controller.dart';
+import 'package:zerin_driver/features/chat/screens/chat_screen.dart';
+import 'package:zerin_driver/features/help_and_support/screens/help_and_support_screen.dart';
+import 'package:zerin_driver/features/html/screens/policy_viewer_screen.dart';
+import 'package:zerin_driver/features/leaderboard/screens/leaderboard_screen.dart';
+import 'package:zerin_driver/features/profile/screens/profile_screen.dart';
+import 'package:zerin_driver/features/profile/widgets/profile_level_widget.dart';
+import 'package:zerin_driver/features/review/screens/review_screen.dart';
+import 'package:zerin_driver/features/setting/screens/setting_screen.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
 
 class ProfileMenuScreen extends StatefulWidget {
   const ProfileMenuScreen({super.key});

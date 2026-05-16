@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/button_widget.dart';
-import 'package:ride_sharing_user_app/features/auth/domain/enums/verification_from_enum.dart';
-import 'package:ride_sharing_user_app/features/auth/screens/forgot_password_screen.dart';
-import 'package:ride_sharing_user_app/helper/display_helper.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
+import 'package:zerin_driver/common_widgets/button_widget.dart';
+import 'package:zerin_driver/features/auth/domain/enums/verification_from_enum.dart';
+import 'package:zerin_driver/features/auth/screens/forgot_password_screen.dart';
+import 'package:zerin_driver/helper/display_helper.dart';
+import 'package:zerin_driver/util/dimensions.dart';
 
 
 class ManualAuthWaringBottomSheetWidget extends StatelessWidget {

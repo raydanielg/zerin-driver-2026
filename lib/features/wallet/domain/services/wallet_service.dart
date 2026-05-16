@@ -1,7 +1,7 @@
 
 
-import 'package:ride_sharing_user_app/features/wallet/domain/repositories/wallet_repository_interface.dart';
-import 'package:ride_sharing_user_app/features/wallet/domain/services/wallet_service_interface.dart';
+import 'package:zerin_driver/features/wallet/domain/repositories/wallet_repository_interface.dart';
+import 'package:zerin_driver/features/wallet/domain/services/wallet_service_interface.dart';
 
 class WalletService implements WalletServiceInterface{
   final WalletRepositoryInterface walletRepositoryInterface;

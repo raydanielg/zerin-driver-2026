@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:ride_sharing_user_app/common_widgets/drop_down_widget.dart';
-import 'package:ride_sharing_user_app/features/review/screens/review_screen.dart';
-import 'package:ride_sharing_user_app/helper/price_converter.dart';
-import 'package:ride_sharing_user_app/features/trip/controllers/trip_controller.dart';
+import 'package:zerin_driver/common_widgets/drop_down_widget.dart';
+import 'package:zerin_driver/features/review/screens/review_screen.dart';
+import 'package:zerin_driver/helper/price_converter.dart';
+import 'package:zerin_driver/features/trip/controllers/trip_controller.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/trip/widgets/chart_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/title_widget.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/trip/widgets/chart_widget.dart';
+import 'package:zerin_driver/common_widgets/title_widget.dart';
 
 class TripOverviewWidget extends StatelessWidget {
   final TripController tripController;

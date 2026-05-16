@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
 
 class PriceConverter {
 

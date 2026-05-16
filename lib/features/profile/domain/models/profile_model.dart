@@ -1,6 +1,6 @@
 
-import 'package:ride_sharing_user_app/features/profile/domain/models/categoty_model.dart';
-import 'package:ride_sharing_user_app/features/profile/domain/models/vehicle_brand_model.dart';
+import 'package:zerin_driver/features/profile/domain/models/categoty_model.dart';
+import 'package:zerin_driver/features/profile/domain/models/vehicle_brand_model.dart';
 
 class ProfileModel {
   String? responseCode;

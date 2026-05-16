@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/splash/domain/models/config_model.dart';
-import 'package:ride_sharing_user_app/data/api_checker.dart';
-import 'package:ride_sharing_user_app/features/splash/domain/services/splash_service_interface.dart';
+import 'package:zerin_driver/features/splash/domain/models/config_model.dart';
+import 'package:zerin_driver/data/api_checker.dart';
+import 'package:zerin_driver/features/splash/domain/services/splash_service_interface.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SplashController extends GetxController implements GetxService {

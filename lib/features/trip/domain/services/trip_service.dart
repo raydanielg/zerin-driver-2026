@@ -1,7 +1,7 @@
 
 
-import 'package:ride_sharing_user_app/features/trip/domain/repositories/trip_repository_interface.dart';
-import 'package:ride_sharing_user_app/features/trip/domain/services/trip_service_interface.dart';
+import 'package:zerin_driver/features/trip/domain/repositories/trip_repository_interface.dart';
+import 'package:zerin_driver/features/trip/domain/services/trip_service_interface.dart';
 
 class TripService implements TripServiceInterface{
 

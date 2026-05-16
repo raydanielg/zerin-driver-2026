@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/localization/localization_controller.dart';
+import 'package:zerin_driver/localization/localization_controller.dart';
 
 class Dimensions {
   static double fontSizeExtraSmall = Get.context!.width >= 1300 ? 14 : 10;

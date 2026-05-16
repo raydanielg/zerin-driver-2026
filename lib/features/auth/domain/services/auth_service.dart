@@ -1,8 +1,8 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:ride_sharing_user_app/data/api_client.dart';
-import 'package:ride_sharing_user_app/features/auth/domain/models/signup_body.dart';
-import 'package:ride_sharing_user_app/features/auth/domain/repositories/auth_repository_interface.dart';
-import 'package:ride_sharing_user_app/features/auth/domain/services/auth_service_interface.dart';
+import 'package:zerin_driver/data/api_client.dart';
+import 'package:zerin_driver/features/auth/domain/models/signup_body.dart';
+import 'package:zerin_driver/features/auth/domain/repositories/auth_repository_interface.dart';
+import 'package:zerin_driver/features/auth/domain/services/auth_service_interface.dart';
 
 class AuthService implements AuthServiceInterface{
  final AuthRepositoryInterface authRepositoryInterface;

@@ -1,9 +1,9 @@
 
 import 'package:get/get_connect/http/src/response/response.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:ride_sharing_user_app/data/api_client.dart';
-import 'package:ride_sharing_user_app/features/auth/domain/models/signup_body.dart';
-import 'package:ride_sharing_user_app/interface/repository_interface.dart';
+import 'package:zerin_driver/data/api_client.dart';
+import 'package:zerin_driver/features/auth/domain/models/signup_body.dart';
+import 'package:zerin_driver/interface/repository_interface.dart';
 
 abstract class AuthRepositoryInterface implements RepositoryInterface{
   Future<Response?> login({required String phone, required String password});

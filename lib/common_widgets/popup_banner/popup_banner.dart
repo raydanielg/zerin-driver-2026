@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ride_sharing_user_app/common_widgets/popup_banner/dialog_item_widget.dart';
+import 'package:zerin_driver/common_widgets/popup_banner/dialog_item_widget.dart';
 
 class PopupBanner {
   final BuildContext context;

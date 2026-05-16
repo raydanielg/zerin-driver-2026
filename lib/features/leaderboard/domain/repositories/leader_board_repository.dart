@@ -1,7 +1,7 @@
 import 'package:get/get_connect/http/src/response/response.dart';
-import 'package:ride_sharing_user_app/data/api_client.dart';
-import 'package:ride_sharing_user_app/features/leaderboard/domain/repositories/leader_board_repository_interface.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
+import 'package:zerin_driver/data/api_client.dart';
+import 'package:zerin_driver/features/leaderboard/domain/repositories/leader_board_repository_interface.dart';
+import 'package:zerin_driver/util/app_constants.dart';
 
 class LeaderBoardRepository implements LeaderBoardRepositoryInterface{
   final ApiClient apiClient;

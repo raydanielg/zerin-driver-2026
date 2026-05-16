@@ -5,14 +5,14 @@ import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mlkit_face_detection/google_mlkit_face_detection.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:ride_sharing_user_app/data/api_checker.dart';
-import 'package:ride_sharing_user_app/features/face_verification/domain/services/face_verification_service_interface.dart';
-import 'package:ride_sharing_user_app/features/face_verification/screens/face_verification_result_screen.dart';
-import 'package:ride_sharing_user_app/features/face_verification/screens/face_verification_screen.dart';
-import 'package:ride_sharing_user_app/features/face_verification/widgets/face_verifing_dialog.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/helper/display_helper.dart';
-import 'package:ride_sharing_user_app/main.dart';
+import 'package:zerin_driver/data/api_checker.dart';
+import 'package:zerin_driver/features/face_verification/domain/services/face_verification_service_interface.dart';
+import 'package:zerin_driver/features/face_verification/screens/face_verification_result_screen.dart';
+import 'package:zerin_driver/features/face_verification/screens/face_verification_screen.dart';
+import 'package:zerin_driver/features/face_verification/widgets/face_verifing_dialog.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/helper/display_helper.dart';
+import 'package:zerin_driver/main.dart';
 
 class FaceVerificationController extends GetxController implements GetxService{
   final FaceVerificationServiceInterface faceVerificationServiceInterface;

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/button_widget.dart';
-import 'package:ride_sharing_user_app/features/face_verification/controllers/face_verification_controller.dart';
-import 'package:ride_sharing_user_app/features/home/screens/vehicle_add_screen.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/common_widgets/button_widget.dart';
+import 'package:zerin_driver/features/face_verification/controllers/face_verification_controller.dart';
+import 'package:zerin_driver/features/home/screens/vehicle_add_screen.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class HomeVehicleAddBottomSheet extends StatelessWidget {
   const HomeVehicleAddBottomSheet({super.key});

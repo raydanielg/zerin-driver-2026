@@ -2,16 +2,16 @@ import 'dart:io';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/image_widget.dart';
-import 'package:ride_sharing_user_app/features/ride/controllers/ride_controller.dart';
-import 'package:ride_sharing_user_app/features/ride/domain/enums/refund_status_enum.dart';
-import 'package:ride_sharing_user_app/features/trip/screens/image_video_viewer.dart';
-import 'package:ride_sharing_user_app/features/trip/widgets/customer_note_view_widget.dart';
-import 'package:ride_sharing_user_app/features/wallet/screens/payable_history_screen.dart';
-import 'package:ride_sharing_user_app/helper/price_converter.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/common_widgets/image_widget.dart';
+import 'package:zerin_driver/features/ride/controllers/ride_controller.dart';
+import 'package:zerin_driver/features/ride/domain/enums/refund_status_enum.dart';
+import 'package:zerin_driver/features/trip/screens/image_video_viewer.dart';
+import 'package:zerin_driver/features/trip/widgets/customer_note_view_widget.dart';
+import 'package:zerin_driver/features/wallet/screens/payable_history_screen.dart';
+import 'package:zerin_driver/helper/price_converter.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class ParcelRefundDetailsWidget extends StatelessWidget {
   const ParcelRefundDetailsWidget({super.key});

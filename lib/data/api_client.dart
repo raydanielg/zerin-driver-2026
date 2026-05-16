@@ -4,9 +4,9 @@ import 'dart:io';
 
 import 'package:file_picker/file_picker.dart';
 import 'package:get/get_connect/http/src/request/request.dart';
-import 'package:ride_sharing_user_app/data/error_response.dart';
+import 'package:zerin_driver/data/error_response.dart';
 
-import 'package:ride_sharing_user_app/util/app_constants.dart';
+import 'package:zerin_driver/util/app_constants.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';

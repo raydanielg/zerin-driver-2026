@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/button_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/text_field_widget.dart';
-import 'package:ride_sharing_user_app/features/auth/controllers/auth_controller.dart';
-import 'package:ride_sharing_user_app/features/auth/screens/otp_sign_up-screen_2.dart';
-import 'package:ride_sharing_user_app/features/auth/widgets/text_field_title_widget.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
-import 'package:ride_sharing_user_app/helper/display_helper.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
+import 'package:zerin_driver/common_widgets/button_widget.dart';
+import 'package:zerin_driver/common_widgets/text_field_widget.dart';
+import 'package:zerin_driver/features/auth/controllers/auth_controller.dart';
+import 'package:zerin_driver/features/auth/screens/otp_sign_up-screen_2.dart';
+import 'package:zerin_driver/features/auth/widgets/text_field_title_widget.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/helper/display_helper.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
 
 class OtpSignUpScreen1 extends StatelessWidget {
   final String phoneNumber;

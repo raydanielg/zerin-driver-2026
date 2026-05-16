@@ -1,5 +1,5 @@
 import 'package:intl/intl.dart';
-import 'package:ride_sharing_user_app/helper/date_converter.dart';
+import 'package:zerin_driver/helper/date_converter.dart';
 
 class SupportChatHelper{
   static List<String> days = ['','MON','TUE','WED','THU','FRI','SAT','SUN'];

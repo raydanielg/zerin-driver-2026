@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:ride_sharing_user_app/data/api_client.dart';
-import 'package:ride_sharing_user_app/features/ride/domain/repositories/ride_repository_interface.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
+import 'package:zerin_driver/data/api_client.dart';
+import 'package:zerin_driver/features/ride/domain/repositories/ride_repository_interface.dart';
+import 'package:zerin_driver/util/app_constants.dart';
 
 class RideRepository implements RideRepositoryInterface{
   ApiClient apiClient;

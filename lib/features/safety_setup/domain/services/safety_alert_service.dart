@@ -1,5 +1,5 @@
-import 'package:ride_sharing_user_app/features/safety_setup/domain/repositories/safety_alert_repository_interface.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/domain/services/safety_alert_service_interface.dart';
+import 'package:zerin_driver/features/safety_setup/domain/repositories/safety_alert_repository_interface.dart';
+import 'package:zerin_driver/features/safety_setup/domain/services/safety_alert_service_interface.dart';
 
 class SafetyAlertService implements SafetyAlertServiceInterface{
   final SafetyAlertRepositoryInterface safetyAlertRepositoryInterface;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
+import 'package:zerin_driver/util/dimensions.dart';
 import 'package:shimmer/shimmer.dart';
 
 class LastTripShimmerWidget extends StatelessWidget {

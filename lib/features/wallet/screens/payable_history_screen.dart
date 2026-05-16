@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/app_bar_widget.dart';
-import 'package:ride_sharing_user_app/features/wallet/controllers/wallet_controller.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/payable_transaction_list_widget.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/payable_type_button_widget.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
+import 'package:zerin_driver/common_widgets/app_bar_widget.dart';
+import 'package:zerin_driver/features/wallet/controllers/wallet_controller.dart';
+import 'package:zerin_driver/features/wallet/widgets/payable_transaction_list_widget.dart';
+import 'package:zerin_driver/features/wallet/widgets/payable_type_button_widget.dart';
+import 'package:zerin_driver/util/dimensions.dart';
 
 class PayableHistoryScreen extends StatefulWidget {
   const PayableHistoryScreen({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
+import 'package:zerin_driver/util/images.dart';
 
 class ImageWidget extends StatelessWidget {
   final String? image;

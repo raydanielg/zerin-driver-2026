@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/help_and_support/screens/help_and_support_screen.dart';
-import 'package:ride_sharing_user_app/features/home/screens/vehicle_add_screen.dart';
-import 'package:ride_sharing_user_app/features/notification/controllers/notification_controller.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/controllers/refer_and_earn_controller.dart';
-import 'package:ride_sharing_user_app/features/refer_and_earn/screens/refer_and_earn_screen.dart';
-import 'package:ride_sharing_user_app/features/ride/screens/ride_request_list_screen.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
-import 'package:ride_sharing_user_app/features/trip/screens/trip_details_screen.dart';
-import 'package:ride_sharing_user_app/helper/date_converter.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/notification/domain/models/notification_model.dart';
+import 'package:zerin_driver/features/help_and_support/screens/help_and_support_screen.dart';
+import 'package:zerin_driver/features/home/screens/vehicle_add_screen.dart';
+import 'package:zerin_driver/features/notification/controllers/notification_controller.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/refer_and_earn/controllers/refer_and_earn_controller.dart';
+import 'package:zerin_driver/features/refer_and_earn/screens/refer_and_earn_screen.dart';
+import 'package:zerin_driver/features/ride/screens/ride_request_list_screen.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/features/trip/screens/trip_details_screen.dart';
+import 'package:zerin_driver/helper/date_converter.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/notification/domain/models/notification_model.dart';
 
 class NotificationCardWidget extends StatelessWidget {
   final Notifications notification;

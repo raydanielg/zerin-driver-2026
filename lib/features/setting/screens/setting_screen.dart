@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/custom_asset_image_widget.dart';
-import 'package:ride_sharing_user_app/features/setting/widgets/language_select_bottomsheet.dart';
-import 'package:ride_sharing_user_app/localization/localization_controller.dart';
-import 'package:ride_sharing_user_app/theme/theme_controller.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/setting/controllers/setting_controller.dart';
-import 'package:ride_sharing_user_app/common_widgets/app_bar_widget.dart';
+import 'package:zerin_driver/common_widgets/custom_asset_image_widget.dart';
+import 'package:zerin_driver/features/setting/widgets/language_select_bottomsheet.dart';
+import 'package:zerin_driver/localization/localization_controller.dart';
+import 'package:zerin_driver/theme/theme_controller.dart';
+import 'package:zerin_driver/util/app_constants.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/setting/controllers/setting_controller.dart';
+import 'package:zerin_driver/common_widgets/app_bar_widget.dart';
 
 class SettingScreen extends StatefulWidget {
   const SettingScreen({super.key});

@@ -1,4 +1,4 @@
-import 'package:ride_sharing_user_app/features/chat/domain/models/channel_model.dart';
+import 'package:zerin_driver/features/chat/domain/models/channel_model.dart';
 
 class MessageModel {
     String? responseCode;

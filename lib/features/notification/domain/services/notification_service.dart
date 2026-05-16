@@ -1,7 +1,7 @@
 
 
-import 'package:ride_sharing_user_app/features/notification/domain/repositories/notification_repository_interface.dart';
-import 'package:ride_sharing_user_app/features/notification/domain/services/notification_service_interface.dart';
+import 'package:zerin_driver/features/notification/domain/repositories/notification_repository_interface.dart';
+import 'package:zerin_driver/features/notification/domain/services/notification_service_interface.dart';
 
 class NotificationService implements NotificationServiceInterface{
 

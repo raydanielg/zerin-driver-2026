@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/cash_in_hand_warning_widget.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/history_list_widget.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/transaction_card_button_widget.dart';
-import 'package:ride_sharing_user_app/helper/responsive_helper.dart';
-import 'package:ride_sharing_user_app/localization/localization_controller.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/profile/screens/profile_menu_screen.dart';
-import 'package:ride_sharing_user_app/features/wallet/controllers/wallet_controller.dart';
-import 'package:ride_sharing_user_app/features/wallet/widgets/wallet_money_amount_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/app_bar_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/zoom_drawer_context_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/type_button_widget.dart';
+import 'package:zerin_driver/features/wallet/widgets/cash_in_hand_warning_widget.dart';
+import 'package:zerin_driver/features/wallet/widgets/history_list_widget.dart';
+import 'package:zerin_driver/features/wallet/widgets/transaction_card_button_widget.dart';
+import 'package:zerin_driver/helper/responsive_helper.dart';
+import 'package:zerin_driver/localization/localization_controller.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/profile/screens/profile_menu_screen.dart';
+import 'package:zerin_driver/features/wallet/controllers/wallet_controller.dart';
+import 'package:zerin_driver/features/wallet/widgets/wallet_money_amount_widget.dart';
+import 'package:zerin_driver/common_widgets/app_bar_widget.dart';
+import 'package:zerin_driver/common_widgets/zoom_drawer_context_widget.dart';
+import 'package:zerin_driver/common_widgets/type_button_widget.dart';
 
 
 class WalletScreenMenu extends GetView<ProfileController> {

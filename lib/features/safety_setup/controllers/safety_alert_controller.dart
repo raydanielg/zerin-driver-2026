@@ -3,17 +3,17 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:ride_sharing_user_app/data/api_checker.dart';
-import 'package:ride_sharing_user_app/features/location/controllers/location_controller.dart';
-import 'package:ride_sharing_user_app/features/ride/controllers/ride_controller.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/domain/models/customer_alert_details.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/domain/models/other_emergency_number_model.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/domain/models/precaution_list_model.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/domain/models/safety_alert_reason_model.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/domain/services/safety_alert_service_interface.dart';
-import 'package:ride_sharing_user_app/features/safety_setup/widgets/safety_alert_delay_widget.dart';
-import 'package:ride_sharing_user_app/features/splash/controllers/splash_controller.dart';
-import 'package:ride_sharing_user_app/helper/display_helper.dart';
+import 'package:zerin_driver/data/api_checker.dart';
+import 'package:zerin_driver/features/location/controllers/location_controller.dart';
+import 'package:zerin_driver/features/ride/controllers/ride_controller.dart';
+import 'package:zerin_driver/features/safety_setup/domain/models/customer_alert_details.dart';
+import 'package:zerin_driver/features/safety_setup/domain/models/other_emergency_number_model.dart';
+import 'package:zerin_driver/features/safety_setup/domain/models/precaution_list_model.dart';
+import 'package:zerin_driver/features/safety_setup/domain/models/safety_alert_reason_model.dart';
+import 'package:zerin_driver/features/safety_setup/domain/services/safety_alert_service_interface.dart';
+import 'package:zerin_driver/features/safety_setup/widgets/safety_alert_delay_widget.dart';
+import 'package:zerin_driver/features/splash/controllers/splash_controller.dart';
+import 'package:zerin_driver/helper/display_helper.dart';
 
  enum SafetyAlertState{initialState,predefineAlert,afterSendAlert,otherNumberState}
 

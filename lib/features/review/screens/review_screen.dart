@@ -1,16 +1,16 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:ride_sharing_user_app/helper/responsive_helper.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/features/notification/widgets/notification_shimmer_widget.dart';
-import 'package:ride_sharing_user_app/features/review/controllers/review_controller.dart';
-import 'package:ride_sharing_user_app/features/review/widgets/review_card_widget.dart';
-import 'package:ride_sharing_user_app/features/review/widgets/review_type_button_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/app_bar_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/no_data_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/paginated_list_view_widget.dart';
+import 'package:zerin_driver/features/dashboard/screens/dashboard_screen.dart';
+import 'package:zerin_driver/helper/responsive_helper.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/features/notification/widgets/notification_shimmer_widget.dart';
+import 'package:zerin_driver/features/review/controllers/review_controller.dart';
+import 'package:zerin_driver/features/review/widgets/review_card_widget.dart';
+import 'package:zerin_driver/features/review/widgets/review_type_button_widget.dart';
+import 'package:zerin_driver/common_widgets/app_bar_widget.dart';
+import 'package:zerin_driver/common_widgets/no_data_widget.dart';
+import 'package:zerin_driver/common_widgets/paginated_list_view_widget.dart';
 
 class ReviewScreen extends StatefulWidget {
   const ReviewScreen({super.key});

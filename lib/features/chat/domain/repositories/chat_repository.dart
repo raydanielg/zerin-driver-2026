@@ -1,8 +1,8 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:get/get_connect/http/src/response/response.dart';
-import 'package:ride_sharing_user_app/data/api_client.dart';
-import 'package:ride_sharing_user_app/features/chat/domain/repositories/chat_repository_interface.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
+import 'package:zerin_driver/data/api_client.dart';
+import 'package:zerin_driver/features/chat/domain/repositories/chat_repository_interface.dart';
+import 'package:zerin_driver/util/app_constants.dart';
 
 class ChatRepository implements ChatRepositoryInterface{
   final ApiClient apiClient;

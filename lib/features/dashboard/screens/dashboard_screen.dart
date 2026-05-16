@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/custom_asset_image_widget.dart';
-import 'package:ride_sharing_user_app/features/wallet/controllers/wallet_controller.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
-import 'package:ride_sharing_user_app/util/styles.dart';
-import 'package:ride_sharing_user_app/features/dashboard/controllers/bottom_menu_controller.dart';
-import 'package:ride_sharing_user_app/features/dashboard/domain/models/navigation_model.dart';
-import 'package:ride_sharing_user_app/features/home/screens/home_screen.dart';
-import 'package:ride_sharing_user_app/features/notification/screens/notification_screen.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
-import 'package:ride_sharing_user_app/features/ride/controllers/ride_controller.dart';
-import 'package:ride_sharing_user_app/features/trip/screens/trip_screen.dart';
-import 'package:ride_sharing_user_app/features/wallet/screens/wallet_screen.dart';
+import 'package:zerin_driver/common_widgets/custom_asset_image_widget.dart';
+import 'package:zerin_driver/features/wallet/controllers/wallet_controller.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
+import 'package:zerin_driver/util/styles.dart';
+import 'package:zerin_driver/features/dashboard/controllers/bottom_menu_controller.dart';
+import 'package:zerin_driver/features/dashboard/domain/models/navigation_model.dart';
+import 'package:zerin_driver/features/home/screens/home_screen.dart';
+import 'package:zerin_driver/features/notification/screens/notification_screen.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/features/ride/controllers/ride_controller.dart';
+import 'package:zerin_driver/features/trip/screens/trip_screen.dart';
+import 'package:zerin_driver/features/wallet/screens/wallet_screen.dart';
 
 
 

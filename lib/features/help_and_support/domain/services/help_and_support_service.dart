@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:ride_sharing_user_app/data/api_client.dart';
-import 'package:ride_sharing_user_app/features/help_and_support/domain/repositories/help_and_support_repository_interface.dart';
-import 'package:ride_sharing_user_app/features/help_and_support/domain/services/help_and_support_service_interface.dart';
+import 'package:zerin_driver/data/api_client.dart';
+import 'package:zerin_driver/features/help_and_support/domain/repositories/help_and_support_repository_interface.dart';
+import 'package:zerin_driver/features/help_and_support/domain/services/help_and_support_service_interface.dart';
 
 class HelpAndSupportService implements HelpAndSupportServiceInterface{
   final HelpAndSupportRepositoryInterface helpAndSupportRepositoryInterface;

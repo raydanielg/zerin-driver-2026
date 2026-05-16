@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:ride_sharing_user_app/data/api_client.dart';
-import 'package:ride_sharing_user_app/features/location/domain/repositories/location_repository_interface.dart';
-import 'package:ride_sharing_user_app/util/app_constants.dart';
-import 'package:ride_sharing_user_app/features/profile/controllers/profile_controller.dart';
+import 'package:zerin_driver/data/api_client.dart';
+import 'package:zerin_driver/features/location/domain/repositories/location_repository_interface.dart';
+import 'package:zerin_driver/util/app_constants.dart';
+import 'package:zerin_driver/features/profile/controllers/profile_controller.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 

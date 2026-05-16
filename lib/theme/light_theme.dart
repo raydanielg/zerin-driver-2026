@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ride_sharing_user_app/theme/custom_theme_colors.dart';
+import 'package:zerin_driver/theme/custom_theme_colors.dart';
 ThemeData lightTheme = ThemeData(
     fontFamily: 'SFProText',
     primaryColor: const Color(0xFF4CAF50),

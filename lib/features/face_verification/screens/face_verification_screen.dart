@@ -1,12 +1,12 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ride_sharing_user_app/common_widgets/app_bar_widget.dart';
-import 'package:ride_sharing_user_app/common_widgets/custom_pop_scope_widget.dart';
-import 'package:ride_sharing_user_app/features/face_verification/controllers/face_verification_controller.dart';
-import 'package:ride_sharing_user_app/features/face_verification/widgets/camera_instruction_widget.dart';
-import 'package:ride_sharing_user_app/util/dimensions.dart';
-import 'package:ride_sharing_user_app/util/images.dart';
+import 'package:zerin_driver/common_widgets/app_bar_widget.dart';
+import 'package:zerin_driver/common_widgets/custom_pop_scope_widget.dart';
+import 'package:zerin_driver/features/face_verification/controllers/face_verification_controller.dart';
+import 'package:zerin_driver/features/face_verification/widgets/camera_instruction_widget.dart';
+import 'package:zerin_driver/util/dimensions.dart';
+import 'package:zerin_driver/util/images.dart';
 
 class FaceVerificationScreen extends StatefulWidget {
   const FaceVerificationScreen({super.key});
