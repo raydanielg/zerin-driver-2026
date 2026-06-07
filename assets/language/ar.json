@@ -942,5 +942,12 @@
   "approval_note": "مذكرة الموافقة",
   "setup_profile": "إعداد الملف الشخصي",
   "create_account": "إنشاء حساب",
-  "complete_your_profile_to_create_account": "أكمل ملفك الشخصي لإنشاء حسابك"
+  "complete_your_profile_to_create_account": "أكمل ملفك الشخصي لإنشاء حسابك",
+  "location_permission_title": "إذن الموقع مطلوب",
+  "location_permission_description": "يتطلب زيرين درايفر الوصول إلى موقعك لتقديم خدمات استدعاء السيارات. نحتاج إلى موقعك لـ:",
+  "location_bullet_1": "العثور على العملاء القريبين الذين يحتاجون إلى رحلات",
+  "location_bullet_2": "التنقل إلى مواقع الاستلام والتسليم",
+  "location_bullet_3": "تتبع موقعك أثناء الرحلات للسلامة والدقة",
+  "location_warning": "سيتم الوصول إلى موقعك حتى عندما يكون التطبيق في الخلفية لضمان الخدمة المستمرة أثناء الرحلات النشطة.",
+  "i_agree": "أوافق"
 }
